@@ -5,8 +5,8 @@ theme: 'material'
 
 pages:
 - Introduction: index.md
-- Orientation: orientation/orientation.md
-- Settings: settings/settings.md
+- Orientation: orientation/index.md
+- Settings: settings/index.md
 - File Management: file-management/index.md
 
 #Options
