@@ -1,0 +1,19 @@
+site_name: Content Management
+copyright: 'Copyright (c) 2016 OLM Systems'
+
+theme: 'material'
+
+pages:
+- Introduction: index.md
+- Orientation: orientation/orientation.md
+- File Management: file-management/move-copy.md
+
+#Options
+extra:
+  palette:
+    primary: 'indigo'
+    accent: 'light blue'
+
+# Extensions
+markdown_extensions:
+  - admonition
