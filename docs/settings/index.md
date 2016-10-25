@@ -53,42 +53,91 @@ xx
 ### Login
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-| | | |
+|Intro text|Paragraphs of introductory text for visitors at the top of the Login screen|Rich text|
+|Login button title|Button label for the `Login` button|Text|
+|Register button title|Button label for the `Register` button|Text|
+|Forgotten password link title|Title attribute (used by screen readers) for the `Forgotten Password` hyperlink|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it.  This can contain images, links, etc.|Rich text|
 
 ### My Account
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-| | | |
+|Intro text|Paragraphs of introductory text for visitors at the top of their account page|Rich text|
+|My documents headline|Title for the `Documents` page|Text|
+|No documents text|Text to display when the user has no documents|Text|
+|Upload new documents button label|Label for the document upload button, if you have this setting turned on in Studio|Text|
+|Action title|Title for the `Tasks` page|Text|
+|Action description|Descriptive paragraphs for the `Tasks` page|Rich text|
+|Message title|Title for the `Messages` page|Text|
+|Message description|Descriptive paragraphs for the `Messages` page|Rich text|
+|Document title|Title for the `Documents` page|Text|
+|Document description|Descriptive paragraphs for the `Documents` page|Rich text|
+|Help|Any help information that you want to appear in the side help panel if users click it.  This can contain images, links, etc.|Rich text|
+
+!!! warning
+    __TODO__
+    Check 'Message' in table above. And 'Action'
+
 
 ### Update User Details
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-| | | |
+|Intro Text|Introductory paragraph on the `Change Details` page|Rich text|
+|Personal details tab title|Title for the `Personal details` tab|Text|
+|Address details tab title|Title for the `Address details` tab|Text|
+|Submit button title|Label for the `Submit` button|Text|
+|Cancel button title|Label for the `Cancel` button|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it.  This can contain images, links, etc.|Rich text|
 
 ### User Registration
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-| | | |
+|Intro Text|Introductory paragraph on the `User Registration` page|Rich text|
+|Personal details headline|Text for the `Personal details` navigation tab in the user registration journey|Text|
+|Address details headline|Text for the `Address details` navigation tab in the user registration journey|Text|
+|Contact details headline|Text for the `Contact details` navigation tab in the user registration journey|Text|
+|Security details headline|Text for the `Security details` navigation tab in the user registration journey|Text|
+|Security questions panel|Explanatory notes in the alert panel above the `Security questions` step|Rich text|
+|Memorable information panel|Explanatory notes in the alert panel above the `Security questions` step|Rich text|
+|Terms and conditions panel|Explanatory notes in the alert panel above the `Security questions` step|Rich text|
+|Terms and conditions label|Label above the terms and conditions|Text|
+|Terms and conditions|Your legal terms and conditions text|Rich text|
+|Submit button title|Text for the `Submit` button label|Text|
+|Cancel button title|Text for the `Cancel` button label|Text|
+|Registration completed headline|Text for the `Registration completed` step|Text|
+|Registration completed text|Any notes or guidance that you want to appear when the user has completed the registration journey|Rich text|
+|Help|Any help information that you want to appear in the side help panel if users click it.  This can contain images, links, etc.|Rich text|
 
 ### Activate Account
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-| | | |
+|Intro Text|Explanatory information on the `Activate Account` page; this page informs users about the process by which they will be sent an email with an activation code and a link they can click to complete the activation|Rich text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 ### Change Password
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-| | | |
+|Intro Text|Explanatory information on the `Change Password` page|Rich text|
+|Submit Button text|Text label for the `Submit` button|Text|
+|Submit Button Google analytics event|Google Analytics event name for the `Submit` event|Text|
+|Submit Button Google analytics label|Google Analytics event label for the `Submit` event|Text|
+|Cancel Button text|Text label for the `Cancel` button|Text|
+|Cancel Button Google analytics event|Google Analytics event name for the `Cancel` event|Text|
+|Cancel Button Google analytics label|Google Analytics event label for the `Cancel` event|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+
 
 ### Log Out
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-| | | |
+|Intro Text|Explanatory information on the `Log out` page|Rich text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 ### Password Recovery
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-| | | |
+|Intro Text|Explanatory information on the `Password Recovery` page|Rich text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 ## Content Settings
 
