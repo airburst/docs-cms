@@ -190,7 +190,9 @@ xx
 
 ## Search Settings
 
-xx
+This section contains all of the settings for search results, shortlists and service providers.
+
+ 
 
 ## Guides Settings
 
