@@ -1,15 +1,22 @@
 site_name: Content Management
 copyright: 'Copyright (c) 2016 OLM Systems'
 
-theme: 'material'
-
+# Navigation
 pages:
 - Introduction: index.md
 - Orientation: orientation/index.md
 - Settings: settings/index.md
 - File Management: file-management/index.md
+- Asset Management: asset-management/index.md
+- Menus: menus/index.md
+- Content Articles: content-articles/index.md
+- Menu Pages: menu-pages/index.md
+- Guides: guides/index.md
+- Page Layouts: page-layout/index.md
+- Widgets: widgets/index.md
 
-#Options
+# Options
+theme: 'material'
 extra:
   palette:
     primary: 'indigo'
