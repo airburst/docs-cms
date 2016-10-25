@@ -48,7 +48,7 @@ The footer area has a standardised layout in two halves.  The left half is free 
 
 ## Account Settings
 
-xx
+This section groups all of the individual settings around the secure account page, registering and signing in and out.
 
 ### Login
 |Setting|Description|Type|
@@ -77,7 +77,6 @@ xx
 !!! warning
     __TODO__
     Check 'Message' in table above. And 'Action'
-
 
 ### Update User Details
 |Setting|Description|Type|
@@ -142,6 +141,52 @@ xx
 ## Content Settings
 
 xx
+
+### Help Requests (FAQs)
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Intro Text|Explanatory information on the `FAQs` page|Rich text|
+|Question title|Headline above the input where users type their question|Text|
+|Question label|Optional label to the left of the question input box|Text|
+|Email label|Optional label to the left of the email input box|Text |
+|Email description|Optional help text beneath the email input box|Text|
+|Feedback text|Message that gets displayed when a user has submitted their question|Text|
+|FAQs|Unbound collection of questions and answers, which will be presented as accordions on screen.  Each FAQ has the fields below:|Collection|
+|> FAQ Title|Question text|Text|
+|> FAQ Text|Answer text; this can include HTML, images, links and multiple paragraphs for information|Rich text|
+
+
+### Site Feedback
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Intro Text|Explanatory information on the `Site Feedback` page; this is a static page that allows visitors to send you feedback and ratings|Rich text|
+|Rating Title|Text for the rating section headline|Text|
+|Comment Title|Text for the comment section headline|Text|
+|Email Address Label|Label for the email input box|Text|
+|Response Headline|Headline text for the response section, which is displayed after a user has submitted feedback|Text|
+|Response Intro Text|Information that you want to add to the response, after a user has submitted feedback|Rich text|
+|Analytics label|Google analytics event label for the event triggered when a user submits feedback|Text|
+|Analytics Event|Google analytics event name for the event triggered when a user submits feedback|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it|Rich text|
+
+### AtoZ
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Intro Text|Explanatory information on the `A to Z` page, which is automatically generated from your site content|Rich text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+
+### Site Feedback Provider
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Intro Text|Explanatory information on a `Provider Feedback` page; this is a static page that allows visitors to send feedback and ratings for a specific provider|Rich text|
+|Rating Title|Text for the rating section headline|Text|
+|Comment Title|Text for the comment section headline|Text|
+|Email Address Label|Label for the email input box|Text|
+|Response Headline|Headline text for the response section, which is displayed after a user has submitted feedback|Text|
+|Response Intro Text|Information that you want to add to the response, after a user has submitted feedback|Rich text|
+|Analytics label|Google analytics event label for the event triggered when a user submits feedback|Text|
+|Analytics Event|Google analytics event name for the event triggered when a user submits feedback|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it|Rich text|
 
 ## Search Settings
 
