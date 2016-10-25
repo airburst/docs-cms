@@ -4,13 +4,13 @@ If you are familiar with MyLife Version 3, settings were managed in the `Standar
 
 Settings are now a top-level item within your site content tree. Click the arrow to the left of the Settings link to display sections of grouped settings.
 
-![title](./images/image.jpg)
+![title](./settings/settings-all.jpg)
 
 ## General Settings
 
-This section includes site settings, the footer area and cookie consent banner.
+This section includes settings for site-wide content, the footer area and cookie consent banner.
 
-### Site
+### Content
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Homepage Url|The landing page for your MyLife site|Link Picker|
@@ -190,7 +190,7 @@ xx
 
 ## Search Settings
 
-This section contains all of the settings for search results, shortlists and service providers.
+This section contains all of the settings for search results, _MyPad_ and service providers.
 
 ### Featured Providers
 |Setting|Description|Type|
@@ -201,16 +201,12 @@ This section contains all of the settings for search results, shortlists and ser
 |View All Records Button Google analytics label|Google Analytics event label for the `View All Records` event|Text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
-### Shortlist (View)
-
-!!! note
-    The previous 'MyPad' feature has been renamed _Shortlist_
-
+### MyPad (View)
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-|Intro Text|Explanatory information on the `Shortlist` page|Rich text|
-|Intro Text for logged-in users|Any additional information that you want to display to signed-in users on the `Shortlist` page|Rich text|
-|Empty Shortlist Text|Text to display when there are no shortlisted items on the page|Text|
+|Intro Text|Explanatory information on the `MyPad` page|Rich text|
+|Intro Text for logged-in users|Any additional information that you want to display to signed-in users on the `MyPad` page|Rich text|
+|Empty MyPad Text|Text to display when there are no shortlisted items on the page|Text|
 |View and Print Button text|Label for the `View and Print` button|Text|
 |View and Print Button Google analytics event|Google Analytics event name for the `View and Print` click event|Text|
 |View and Print Button Google analytics label|Google Analytics event label for the `View and Print` click event|Text|
@@ -224,9 +220,9 @@ This section contains all of the settings for search results, shortlists and ser
 |Remove All Confirmation Text|Information to display in the confirmation dialog when a user removes all shortlisted items|Rich text|
 |Remove All Confirmation Button label|Label for the `Confirm` button|Text|
 |Cancel Button label|Label for the `Cancel` button|Text|
-|View Shortlist Button text|Label for the `View Shortlist` button|Text|
-|View Shortlist Button Google analytics event|Google Analytics event name for the `View Shortlist` click event|Text|
-|View Shortlist Button Google analytics label|Google Analytics event label for the `View Shortlist` click event|Text|
+|View MyPad Button text|Label for the `View MyPad` button|Text|
+|View MyPad Button Google analytics event|Google Analytics event name for the `View MyPad` click event|Text|
+|View MyPad Button Google analytics label|Google Analytics event label for the `View MyPad` click event|Text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 ### Provider Details
@@ -272,11 +268,11 @@ Result and no-result text above can use placeholders as follows:
     Display to: @DisplayTo@ 
     (e.g Your search '@SearchTerm@' returned @NumberOfResults@ records)
 
-### Shortlist (Edit)
+### MyPad (Edit)
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-|Add Intro Text|Explanatory information on the `Shortlist` page `Add` section|Rich text|
-|Edit Intro Text|Explanatory information on the `Shortlist` page `Edit` section|Rich text|
+|Add Intro Text|Explanatory information on the `MyPad` page `Add` section|Rich text|
+|Edit Intro Text|Explanatory information on the `MyPad` page `Edit` section|Rich text|
 |Help Information Title|Headline text for the help section|Text|
 |Help Information Text|Detailed help section information|Rich text|
 |Add to MyPad Accordion Button text|Label for the `Add to MyPad Accordion` button|Text|
