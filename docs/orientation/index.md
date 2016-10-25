@@ -3,6 +3,12 @@
 This page is intended as a quick primer to find your way around the CMS screen and learn Umbraco conventions.
 Other chapters provide more detail in completing tasks.
 
+Your CMS is hosted at the following Urls:
+
+    TEST: https://{your-site}.mylifetest.co.uk/umbraco
+
+    LIVE: (Coming after Beta test period)
+
 ## Content
 
 * When you sign in for the first time, the landing page is the `Content` page, showing only your top-level site folder.

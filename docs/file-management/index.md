@@ -30,3 +30,17 @@ Move and Copy are easy to use and available on all content items and folders.  Y
 ![Move complete](/file-management/move-copy-03.jpg)
 
 After copying a content item or page, you should give the new copy a distinct alias and title.
+
+## Delete content
+
+!!! warning
+    TODO
+
+## Undelete Content
+
+xxx
+
+## Rollback
+
+xxx
+
