@@ -50,7 +50,7 @@ The footer area has a standardised layout in two halves.  The left half is free 
 
 This section groups all of the individual settings around the secure account page, registering and signing in and out.
 
-### Login
+### Login Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro text|Paragraphs of introductory text for visitors at the top of the Login screen|Rich text|
@@ -59,7 +59,7 @@ This section groups all of the individual settings around the secure account pag
 |Forgotten password link title|Title attribute (used by screen readers) for the `Forgotten Password` hyperlink|Text|
 |Help|Any help information that you want to appear in the side help panel if users click it.  This can contain images, links, etc.|Rich text|
 
-### My Account
+### My Account Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro text|Paragraphs of introductory text for visitors at the top of their account page|Rich text|
@@ -78,7 +78,7 @@ This section groups all of the individual settings around the secure account pag
     __TODO__
     Check 'Message' in table above. And 'Action'
 
-### Update User Details
+### Update User Details Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Introductory paragraph on the `Change Details` page|Rich text|
@@ -88,7 +88,7 @@ This section groups all of the individual settings around the secure account pag
 |Cancel button title|Label for the `Cancel` button|Text|
 |Help|Any help information that you want to appear in the side help panel if users click it.  This can contain images, links, etc.|Rich text|
 
-### User Registration
+### User Registration Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Introductory paragraph on the `User Registration` page|Rich text|
@@ -107,13 +107,13 @@ This section groups all of the individual settings around the secure account pag
 |Registration completed text|Any notes or guidance that you want to appear when the user has completed the registration journey|Rich text|
 |Help|Any help information that you want to appear in the side help panel if users click it.  This can contain images, links, etc.|Rich text|
 
-### Activate Account
+### Activate Account Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information on the `Activate Account` page; this page informs users about the process by which they will be sent an email with an activation code and a link they can click to complete the activation|Rich text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
-### Change Password
+### Change Password Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information on the `Change Password` page|Rich text|
@@ -126,13 +126,13 @@ This section groups all of the individual settings around the secure account pag
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 
-### Log Out
+### Log Out Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information on the `Log out` page|Rich text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
-### Password Recovery
+### Password Recovery Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information on the `Password Recovery` page|Rich text|
@@ -142,7 +142,7 @@ This section groups all of the individual settings around the secure account pag
 
 xx
 
-### Help Requests (FAQs)
+### Help Requests (FAQs) Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information on the `FAQs` page|Rich text|
@@ -155,8 +155,7 @@ xx
 |> FAQ Title|Question text|Text|
 |> FAQ Text|Answer text; this can include HTML, images, links and multiple paragraphs for information|Rich text|
 
-
-### Site Feedback
+### Site Feedback Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information on the `Site Feedback` page; this is a static page that allows visitors to send you feedback and ratings|Rich text|
@@ -169,13 +168,13 @@ xx
 |Analytics Event|Google analytics event name for the event triggered when a user submits feedback|Text|
 |Help|Any help information that you want to appear in the side help panel if users click it|Rich text|
 
-### AtoZ
+### AtoZ Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information on the `A to Z` page, which is automatically generated from your site content|Rich text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
-### Site Feedback Provider
+### Site Feedback Provider Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information on a `Provider Feedback` page; this is a static page that allows visitors to send feedback and ratings for a specific provider|Rich text|
@@ -192,7 +191,7 @@ xx
 
 This section contains all of the settings for search results, _MyPad_ and service providers.
 
-### Featured Providers
+### Featured Providers Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information in a `Featured Providers` section, which appears as a first set of results, akin to Google sponsored results|Rich text|
@@ -201,7 +200,7 @@ This section contains all of the settings for search results, _MyPad_ and servic
 |View All Records Button Google analytics label|Google Analytics event label for the `View All Records` event|Text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
-### MyPad (View)
+### MyPad (View) Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information on the `MyPad` page|Rich text|
@@ -225,7 +224,7 @@ This section contains all of the settings for search results, _MyPad_ and servic
 |View MyPad Button Google analytics label|Google Analytics event label for the `View MyPad` click event|Text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
-### Provider Details
+### Provider Details Settings
 
 !!! warning
     __TODO__
@@ -235,7 +234,7 @@ This section contains all of the settings for search results, _MyPad_ and servic
     |Intro Text|Explanatory information on the `A to Z` page|Rich text|
     |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
-### Provider Registration
+### Provider Registration Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information on the `Provider Registration` page|Rich text|
@@ -252,7 +251,7 @@ This section contains all of the settings for search results, _MyPad_ and servic
 |Registration completed text|Additional information that you want to display to a provider after they have registered|Rich text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
-### Search Results
+### Search Results Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Intro Text|Explanatory information on the `Search` page|Rich text|
@@ -268,7 +267,7 @@ Result and no-result text above can use placeholders as follows:
     Display to: @DisplayTo@ 
     (e.g Your search '@SearchTerm@' returned @NumberOfResults@ records)
 
-### MyPad (Edit)
+### MyPad (Edit) Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Add Intro Text|Explanatory information on the `MyPad` page `Add` section|Rich text|
@@ -295,7 +294,7 @@ Result and no-result text above can use placeholders as follows:
 |Cancel Button Button Google analytics label|Google Analytics event label for the `Cancel Button` click event|Text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
-### Search Facets
+### Search Facets Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
 |Postcodes label|Explanatory information on the `Postcodes` search facet, which allows users to filter results by postcode area|Text|
