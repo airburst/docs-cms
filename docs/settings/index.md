@@ -192,7 +192,121 @@ xx
 
 This section contains all of the settings for search results, shortlists and service providers.
 
- 
+### Featured Providers
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Intro Text|Explanatory information in a `Featured Providers` section, which appears as a first set of results, akin to Google sponsored results|Rich text|
+|View All Records Button text|Label for the `View All Records` button|Text|
+|View All Records Button Google analytics event|Google Analytics event name for the `View All Records` event|Text|
+|View All Records Button Google analytics label|Google Analytics event label for the `View All Records` event|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+
+### Shortlist (View)
+
+!!! note
+    The previous 'MyPad' feature has been renamed _Shortlist_
+
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Intro Text|Explanatory information on the `Shortlist` page|Rich text|
+|Intro Text for logged-in users|Any additional information that you want to display to signed-in users on the `Shortlist` page|Rich text|
+|Empty Shortlist Text|Text to display when there are no shortlisted items on the page|Text|
+|View and Print Button text|Label for the `View and Print` button|Text|
+|View and Print Button Google analytics event|Google Analytics event name for the `View and Print` click event|Text|
+|View and Print Button Google analytics label|Google Analytics event label for the `View and Print` click event|Text|
+|Save to My Account Button text|Label for the `Save to My Account` button|Text|
+|Save to My Account Button Google analytics event|Google Analytics event name for the `Save to My Account` click event|Text|
+|Save to My Account Button Google analytics label|Google Analytics event label for the `Save to My Account` click event|Text|
+|Remove All Button text|Label for the `Remove All` button|Text|
+|Remove All Button Google analytics event|Google Analytics event name for the `Remove All` click event|Text|
+|Remove All Button Google analytics label|Google Analytics event label for the `Remove All` click event|Text|
+|Remove All Confirmation Title|Headline to display in the confirmation dialog when a user removes all shortlisted items|Text|
+|Remove All Confirmation Text|Information to display in the confirmation dialog when a user removes all shortlisted items|Rich text|
+|Remove All Confirmation Button label|Label for the `Confirm` button|Text|
+|Cancel Button label|Label for the `Cancel` button|Text|
+|View Shortlist Button text|Label for the `View Shortlist` button|Text|
+|View Shortlist Button Google analytics event|Google Analytics event name for the `View Shortlist` click event|Text|
+|View Shortlist Button Google analytics label|Google Analytics event label for the `View Shortlist` click event|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+
+### Provider Details
+
+!!! warning
+    __TODO__
+
+    |Setting|Description|Type|
+    | ------------- | ------------- | ------------- |
+    |Intro Text|Explanatory information on the `A to Z` page|Rich text|
+    |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+
+### Provider Registration
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Intro Text|Explanatory information on the `Provider Registration` page|Rich text|
+|Organisation details headline|Text for the `Organisation Details` section heading|Text|
+|Address details headline|Text for the `Address Details` section heading|Text|
+|Organisation contact details headline|Text for the `Organisation Contact Details` section heading|Text|
+|Contact details headline|Text for the `Contact Details` section heading|Text|
+|Service details headline|Text for the `Service Details` section heading|Text|
+|Terms and conditions label|Label for the terms and conditions section|Text|
+|Terms and conditions|Text for your legal terms and conditions for use of the site|Rich text|
+|Submit button label|Label for the `Submit` button|Text|
+|Cancel button label|Label for the `Cancel` button|Text|
+|Registration completed headline|Text for the `Registration completed` heading, which is displayed after successful registration|Text|
+|Registration completed text|Additional information that you want to display to a provider after they have registered|Rich text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+
+### Search Results
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Intro Text|Explanatory information on the `Search` page|Rich text|
+|Result Text|The formatted summary information, which appears above the list of results; this accepts variables (see below this table)|Rich text|
+|No Results Text|Information to display when there are no matches found|Rich text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+
+Result and no-result text above can use placeholders as follows:
+
+    Searchterm: @SearchTerm@ (format of search term is: for 'keyword' near 'location') 
+    Number of results: @NumberOfResults@ 
+    Display from: @DisplayFrom@ 
+    Display to: @DisplayTo@ 
+    (e.g Your search '@SearchTerm@' returned @NumberOfResults@ records)
+
+### Shortlist (Edit)
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Add Intro Text|Explanatory information on the `Shortlist` page `Add` section|Rich text|
+|Edit Intro Text|Explanatory information on the `Shortlist` page `Edit` section|Rich text|
+|Help Information Title|Headline text for the help section|Text|
+|Help Information Text|Detailed help section information|Rich text|
+|Add to MyPad Accordion Button text|Label for the `Add to MyPad Accordion` button|Text|
+|Add to MyPad Accordion Button Google analytics event|Google Analytics event name for the `Add to MyPad Accordion` click event|Text|
+|Add to MyPad Accordion Button Google analytics label|Google Analytics event label for the `Add to MyPad Accordion` click event|Text|
+|Add to MyPad Button text|Label for the `Add to MyPad` button|Text|
+|Add to MyPad Button Google analytics event|Google Analytics event name for the `Add to MyPad` click event|Text|
+|Add to MyPad Button Google analytics label|Google Analytics event label for the `Add to MyPad` click event|Text|
+|Remove from MyPad Button text|Label for the `Remove from MyPad` button|Text|
+|Remove from MyPad Button Google analytics event|Google Analytics event name for the `Remove from MyPad` click event|Text|
+|Remove from MyPad Button Google analytics label|Google Analytics event label for the `Remove from MyPad` click event|Text|
+|Edit Notes Button text|Label for the `Edit Notes` button|Text|
+|Edit Notes Button Google analytics event|Google Analytics event name for the `Edit Notes` click event|Text|
+|Edit Notes Button Google analytics label|Google Analytics event label for the `Edit Notes` click event|Text|
+|Save Button Button text|Label for the `Save Button` button|Text|
+|Save Button Button Google analytics event|Google Analytics event name for the `Save Button` click event|Text|
+|Save Button Button Google analytics label|Google Analytics event label for the `Save Button` click event|Text|
+|Cancel Button Button text|Label for the `Cancel Button` button|Text|
+|Cancel Button Button Google analytics event|Google Analytics event name for the `Cancel Button` click event|Text|
+|Cancel Button Button Google analytics label|Google Analytics event label for the `Cancel Button` click event|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+
+### Search Facets
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Postcodes label|Explanatory information on the `Postcodes` search facet, which allows users to filter results by postcode area|Text|
+|Data Source label|Explanatory information on the `Data Source` search facet, which allows users to filter results by source collection, e.g. 'MyLife' (Content) or 'CQC', etc.|Text|
+|Formats label|Explanatory information on the `Formats` search facet, which allows users to filter results by file type|Text|
+|Keywords label|Explanatory information on the `Keywords` search facet, which allows users to filter results by keywords|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 ## Guides Settings
 
