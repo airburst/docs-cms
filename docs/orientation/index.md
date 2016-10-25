@@ -3,11 +3,11 @@
 This page is intended as a quick primer to find your way around the CMS screen and learn Umbraco conventions.
 Other chapters provide more detail in completing tasks.
 
-Your CMS is hosted at the following Urls:
+You can access your CMS at the following Urls:
 
-    TEST: https://{your-site}.mylifetest.co.uk/umbraco
+__TEST__  `https://{your-site}.mylifetest.co.uk/umbraco`
 
-    LIVE: (Coming after Beta test period)
+__LIVE__  _(Coming after Beta test period)_
 
 ## Content
 
@@ -15,11 +15,11 @@ Your CMS is hosted at the following Urls:
 
 * Hovering over the site name will reveal an arrow to the left and an ellipsis to the right.
 
-![The default landing page - content](content.jpg)
+![The default landing page - content](/orientation/content.jpg)
 
 * Click the arrow to expand the site tree.
 
-![The default landing page - content](content-tree.jpg)
+![The default landing page - content](/orientation/content-tree.jpg)
 
 ## Properties
 
@@ -27,7 +27,7 @@ Your CMS is hosted at the following Urls:
 
 * This panel shows information about the item and cannot be changed.  You can generally ignore properties panels.
 
-![The Properties panel](properties.jpg)
+![The Properties panel](/orientation/properties.jpg)
 
 ## Actions
 
@@ -37,7 +37,7 @@ Your CMS is hosted at the following Urls:
 
 * This panel allows you to create a new item.  It will show a list of all valid things that you can create in this place.  E.g. you can only create new menu links or sub-menus within a `Menu`, but you can create a wide range of items under a `Folder`. 
 
-![The Create panel](create.jpg)
+![The Create panel](/orientation/create.jpg)
 
 ### Other Actions
 
@@ -45,11 +45,11 @@ Your CMS is hosted at the following Urls:
 
 * You can click on the `Actions` button, to the top right of the screen.  This will show a drop down list of actions.
 
-![The Other Actions panel](actions.jpg)
+![The Other Actions panel](/orientation/actions.jpg)
 
 * Or you can click the `Do Something Else` button at the bottom of the `Create` panel.  This changes the Create panel to show the same list of actions as the drop down menu.
 
-![The Other Actions panel](do-something-else.jpg)
+![The Other Actions panel](/orientation/do-something-else.jpg)
 
 * To find out more about using actions, please read the `1![Actions](#)` section.
 
@@ -61,7 +61,7 @@ Your CMS is hosted at the following Urls:
 
 * See `![Managing Media](../index)` for more information on how to work with media files.
 
-![The Media page](media.jpg)
+![The Media page](/orientation/media.jpg)
 
 !!! warning
     Although you _can_ store video within the CMS, we do not recommend it.  
@@ -73,7 +73,7 @@ Your CMS is hosted at the following Urls:
 
 * Next to the preview button you will find a `Save and publish` button.  Clicking this will publish changes to your site.  Clicking the arrow to the right gives you options to `Save` (a draft) and `Unpublish` content back into draft form.
 
-![Preview](preview.jpg)
+![Preview](/orientation/preview.jpg)
 
 !!! note
     There is no publishing workflow set up in Umbraco CMS.  You can save files as drafts and preview them prior to publishing. 
