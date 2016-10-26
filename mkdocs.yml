@@ -11,7 +11,8 @@ pages:
 - Menus: menus/index.md
 - Content Articles: content-articles/index.md
 - Menu Pages: menu-pages/index.md
-- Guides TODO: guides/index.md
+- Guides: guides/index.md
+- Search Assistant TODO: search-assistant/index.md
 - Page Layouts TODO: page-layout/index.md
 - Widgets TODO: widgets/index.md
 
