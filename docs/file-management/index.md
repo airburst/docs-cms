@@ -1,6 +1,6 @@
-# File Managment
+# Managing Content
 
-This section covers basic tasks such as organising your site folder structure, setting breadcrumbs, creating, moving, copying and removing content items.
+This section covers basic tasks such as organising your site folder structure, setting breadcrumbs, and performing `Actions` such as creating, moving, copying and removing content items.
 
 ## Navigating folders
 

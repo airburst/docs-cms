@@ -8,7 +8,7 @@ pages:
 - Settings: settings/index.md
 - Managing Content: file-management/index.md
 - Managing Assets TODO: asset-management/index.md
-- Menus TODO: menus/index.md
+- Menus: menus/index.md
 - Content Articles TODO: content-articles/index.md
 - Menu Pages TODO: menu-pages/index.md
 - Guides TODO: guides/index.md
