@@ -9,12 +9,11 @@ pages:
 - Managing Content: file-management/index.md
 - Managing Assets TODO: asset-management/index.md
 - Menus: menus/index.md
-- Content Articles TODO: content-articles/index.md
+- Content Articles: content-articles/index.md
 - Menu Pages TODO: menu-pages/index.md
 - Guides TODO: guides/index.md
 - Page Layouts TODO: page-layout/index.md
 - Widgets TODO: widgets/index.md
-- SEO TODO: widgets/index.md
 
 # Options
 theme: 'material'
