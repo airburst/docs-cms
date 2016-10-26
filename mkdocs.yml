@@ -7,7 +7,7 @@ pages:
 - Umbraco Orientation: orientation/index.md
 - Settings: settings/index.md
 - Managing Content: file-management/index.md
-- Managing Assets TODO: asset-management/index.md
+- Managing Assets TODO: media-management/index.md
 - Menus: menus/index.md
 - Content Articles: content-articles/index.md
 - Menu Pages: menu-pages/index.md
