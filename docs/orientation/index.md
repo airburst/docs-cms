@@ -51,7 +51,7 @@ __LIVE__  _(Coming after Beta test period)_
 
 ![The Other Actions panel](/orientation/do-something-else.jpg)
 
-* To find out more about using actions, please read the `1![Actions](#)` section.
+* To find out more about using actions, please read the [Managing Content](./file-management) section.
 
 ## Media
 

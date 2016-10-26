@@ -1,10 +1,10 @@
-site_name: Content Management
+site_name: Managing Content in MyLife
 copyright: 'Copyright (c) 2016 OLM Systems'
 
 # Navigation
 pages:
 - Introduction: index.md
-- Orientation: orientation/index.md
+- Umbraco Orientation: orientation/index.md
 - Settings: settings/index.md
 - Managing Content: file-management/index.md
 - Managing Assets TODO: asset-management/index.md
