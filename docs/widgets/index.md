@@ -166,11 +166,41 @@ Follow the standard process to [show widget settings](#view-or-change-widget-set
 
 ## Carousel
 
-xxx
+Carousels are - or at least were - ubiquitous on The Web. They are generally presented as a sliding set of pictures, each of which has banner text and/or a caption and which links to another page (within your site or externally).
 
-## Grid (2x2)
+Everyone loves carousels. Apart from users. In fact there is evidence from working groups and studies that most users never get beyond the 3rd option in a deck and plenty of users - particularly elderly users and users with mental difficulties - really don't like moving material on web pages.
 
-XXX
+We can't wholeheartedly recommend that you use carousels then, but the choice is entirely yours.
+
+Follow the standard process to [show widget settings](#view-or-change-widget-settings).
+
+`Carousels` have the following settings that you can adjust:
+
+|Setting|Description|
+| ------------- | ------------- |
+|Title|_Not used_|
+|Type|Select from `Slider`, which is the more modern display option, comprising a caption at the full length of the bottom of the picture, with a dark overlay behind it, and `Tabbed`, which displays a group of tabs at the bottom of the Carousel and the user has to click each tab to reveal the picture.  __Note:__ Tabbed carousels get even less traction that sliders.|
+|Legacy caption style|For the `Slider` view type, we support a default, full-width caption style, as well as an older style which places the caption in a box within the picture.|
+|Display pager|Show or hide the left and right icons that let users move through the deck.|
+|Slider speed|The number of seconds that each slide remains static before advancing. The default is 7. Do not go below 3!|
+|Carousel items|A collection of slide items, as described in the table below.|
+
+### Carousel Slide Items
+
+|Setting|Description|
+| ------------- | ------------- |
+|Title|The main caption that appears over the image.|
+|Teaser|Paragraph text that appears in the information box.  For `Slider` type, this is a full width box at the base of the picture. For `Tabbed` type the box covers part of the image and is above the tabs.|
+|Image|The main picture for the slide. Uses a [media picker](../content-articles/#media-picker). You should ensure that all pictures in the deck have the same aspect ratio and pixel dimensions, otherwise the slider will jank the screen.|
+|Link text|For `Tabbed` carousel type only: the text to display for the hyperlink in the caption box.|
+|Link|The main link that a user is directed to if they click on the Carousel picture. Uses a [link picker](../content-articles/#links-picker) to point to an existing content page or an external link. Optionally set the `Open in new window` checkbox for external links.|
+|Google Analytics|Enter an event name and label in order to track click-throughs in your GA console.|
+
+## Grid (2 Column)
+
+`Grid` widgets provide a way to present aligned information without resorting to a table (tables are not good practise for non-tabular data and not responsive on small devices). We provide a 2-column grid widget; we could augment this with 3 columns and beyond if there is demand.
+
+The grid allows you to specify the proportions of the left and right columns (in ratios of 12ths), so you can build 2:3, 1:2, 5:7, etc. as you need.  Then you can add HTML Content, images or videos in each side. The primary use is to align paragraphs of text with an accompanying column of media.  If you simply wanted to display a grid of images, then you can use standard rows and cells.
 
 Follow the standard process to [show widget settings](#view-or-change-widget-settings).
 
@@ -203,13 +233,23 @@ The following settings are repeated for both left and right hand sides of each r
 
 ## Search Categories
 
-x
+The `Search Categories` widget displays a collection of buttons that match the search categories in Studio. There is a setting in Studio to flag whether or not each category should be included in the widget collection.
+
+The value of this widget is that it gives users an intuitive way to start a search, without having to consider what to type into the search box (particularly useful for users who are not overly confident in using The Web).  When clicked, the user is taken to the search results for that category. 
 
 ![Image settings](./widgets/info-search.jpg)
 
 Follow the standard process to [show widget settings](#view-or-change-widget-settings).
 
 `Search Categories` has the following settings that you can adjust:
+
+|Setting|Description|
+| ------------- | ------------- |
+|Headline|A main headline displayed above the collection of buttons or tiles.|
+|Headline weight|Select from heading style H1 - H6.|
+|Display type|Select from `Button` or `Tile`.  Buttons are more common, given the number of them that you may want to show. They will show the search category name and icon that you have set in Studio. Tiles are bigger buttons.|
+|Number of columns|Select from one, two or three columns of buttons.|
+|Alternative button colour|Optionally use an alternative contrast colour, set in your site theme.|
 
 ## Twitter Feed
 
