@@ -1,13 +1,24 @@
 # Widgets
 
-!!! warning
-    TODO
+xxx
 
 ## What are Widgets?
 
 xx
 
-![title](./images/image.jpg)
+## View or Change Widget Settings
+
+xx
+
+![Select widget](./widgets/select-widget.jpg)
+
+xx
+
+![Select widget](./widgets/selected-widget.jpg)
+
+xx
+
+![View widget properties](./widgets/widget-props.jpg)
 
 ## Content Article
 
