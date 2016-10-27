@@ -14,7 +14,7 @@ pages:
 - Guides: guides/index.md
 - Search Assistant: search-assistant/index.md
 - Page Layouts: page-layout/index.md
-- Widgets TODO: widgets/index.md
+- Widgets: widgets/index.md
 
 # Options
 theme: 'material'
