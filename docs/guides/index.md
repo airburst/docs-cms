@@ -37,7 +37,7 @@ This section explains how to create a Guide.
 |Title|The headline text displayed on the first step of the `Guide`|
 |Intro text|Introductory or explanatory text (and pictures) that appears at the top of the first step of the `Guide`|
 |Completion text|Explanatory notes, which appear after the user has completed the `Guide`|
-|Container doc|A content link-picker to link a container document. The container document is generally created once as a site-wide structure for presenting the final information to a user. See below for notes on building a container doc.|
+|Container doc|A content link-picker to link a container document. The container document is generally created once as a site-wide structure for presenting the final information to a user. See [Container Document](#container-documents) notes below for information on building a container doc.|
 |Questions|A collection of one or more question or statement groups, e.g. _"What can I do to become healthier?"_. Each question has multiple fields, described in the next table.|
 
 Question Fields
@@ -61,6 +61,27 @@ Option Fields
 Option information is the key part of each Guide question; it will be compiled into the user's tailored response document. The `Rich Editor` input box allows you to create complete content articles, with pictures, links.  You can find more information on creating content items in the [Content Articles](../content-articles) section.
 
 This Editor also lets you embed the results from specific `Featured Provider Lists` that you have set up in Studio. You will need to find the id number for the correct list and can then add the text `{#ProviderList=x#}`, where x = the id.
+
+## Container Documents
+
+Container documents are normal [HTML Content articles](../content-articles) that provide a shell template for the dynamic parts of the Guide to be merged into.  It allows you to build a nice header and footer area to surround the rest of the content.
+
+You can include logos, imagery, etc.
+
+![Container doc](./guides/container-doc.jpg)
+
+You can also incorporate `Tags`, which are replaced with live data when the Guide is created. A list of valid tags is shown in the table below:
+
+|Tag|Purpose|
+| ------------- | ------------- |
+|`{#GuideName#}`|The Guide title|
+|`{#QuestionnaireTitle#}`|Title of the question set.|
+|`{#GuideContent#}`|Placeholder to inject all of the content that the user has requested, by checking statements.|
+|`{#CompletionDate#}`|Date that the Guide was completed.|
+|`{#CompletedByName#}`|Name of the user, if they are signed in.|
+|`{#ProviderList=@id#}`|The specific _Featured Provider Lists_ id that you have set up in Studio.|
+|`{#PageNumber#}`|Page number, where the PDF spans multiple pages.|       
+|`{#PageCount#}`|Total page number, e.g. _page 2 of 4_, where 4 is the PageCount.|
 
 ## Other Actions
 
