@@ -65,3 +65,7 @@ This Editor also lets you embed the results from specific `Featured Provider Lis
 ## Other Actions
 
 You can remove, move, copy and rollback `Guides` just like any other content item. Please refer to the [Content Management](../file-management) section for more information.
+
+## Metadata
+
+As with any other page that you publish, it is very important to get the best SEO rank that you can. See more details on using the [Metadata](../content-articles/#metadata) tab.
