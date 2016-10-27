@@ -253,16 +253,68 @@ Follow the standard process to [show widget settings](#view-or-change-widget-set
 
 ## Twitter Feed
 
+The `Twitter Feed` widget enables you to embed live feeds from Twitter. It's a great way to include live content with little effort.
+
+An example Twitter feed is shown in the figure below. Each item has a hover effect to infer that it can be clicked, made a favourite or retweeted. Clicking the Twitter avatar or name opens their Twitter page in a new window.
+
+Since this is an embedded widget, controlled by Twitter, we do not have as much control over styling the content.
+
+![Twitter Feed](./widgets/twitter.jpg)
+
 Follow the standard process to [show widget settings](#view-or-change-widget-settings).
 
 `Twitter Feeds` have the following settings that you can adjust:
 
+|Setting|Description|
+| ------------- | ------------- |
+|Title|_Not used_|
+|Headline|The headline text in the box header.|
+|Markup|You need to sign in to a Twitter page in order to generate widget code. See the instructions below this table.|
+|Twitter username|The user name for the Twitter feed source. This enables the avatar and name links to work.|
+|Display Follow button|Optionally display a `Follow` button below the feed.|
+|Display Tweet button|Optionally display a `Tweet` button below the feed.|
+|Number of Tweets|Select from 1 - 10 items to display in the live feed.|
+
+### Widget Embed Code
+
+Paste the following boilerplate code into the `Markup` field, replacing `{user-name}` with your desired twitter user name:
+
+    <a class="twitter-timeline" href="https://twitter.com/{user-name}">
+	    Tweets by @{user-name}
+    </a>
+    <script>
+        !function(d,s,id){
+            var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+            if(!d.getElementById(id)){
+                js=d.createElement(s);
+                js.id=id;
+                js.src=p+"://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js,fjs);
+            }
+        }(document,"script","twitter-wjs");
+    </script>
+
 ## RSS Feed
+
+The `RSS Feed` widget enables you to embed live feeds from external sources, such as blogs or your corporate Web CMS. It's a great way to include live content with little effort.
+
+An example feed is shown in the figure below. Each item has a hover effect to infer that it can be clicked. Clicking a link opens the source page in a new window. All aspects of styling can be changed in your site theme.
+
+![RSS Feed](./widgets/rss-feed.jpg)
 
 Follow the standard process to [show widget settings](#view-or-change-widget-settings).
 
 `RSS Feeds` have the following settings that you can adjust:
 
+|Setting|Description|
+| ------------- | ------------- |
+|Title|_Not used_|
+|Headline|The headline text in the RSS box header.|
+|RSS Feed Url|The RSS feed url that you want to embed.|
+|Number of items|The number of items that you want to display in the feed.|
+
 ## Block Quote
 
-XXXXXXXXXX
+Block quotes allow you to present quotations or emphasised text with a nice style. Simply add a block quote content widget and start typing.
+
+![Quote](./widgets/blockquote.png)
