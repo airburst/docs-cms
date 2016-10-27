@@ -16,8 +16,6 @@ This section includes settings for site-wide content, the footer area and cookie
 |Homepage Url|The landing page for your MyLife site|Link Picker|
 |Main Menu|The Menu that you want to use for site main navigation (top of screen)|Link Picker|
 |Account Menu|A menu of items that you want to show to signed-in users via the drop-down button or side navigation|Link Picker|
-|Account Options Menu|A menu of items that you want to show to |Link Picker|
-|Enable cookie consent|Turn on the cookie banner for new visitors. _Note: this is an EU legislative requirement_|Checkbox|
 |Mobile menu style|Dark or light side navigation on mobile devices|Select|
 |Enable key tips|Enable keyboard shortcuts for main menu (users click `Alt` to display)|Checkbox|
 |Use glyph icon in menu|Enables icons in the main navigation menu and side menu (on mobiles)|Checkbox|
@@ -42,22 +40,14 @@ The footer area has a standardised layout in two halves.  The left half is free 
 ### Cookie Consent
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-|Intro text|The message that appears to new visitors in the cookie consent banner at the top of the screen|Text|
+|Message text|The message that appears to new visitors in the cookie consent banner at the top of the screen|Text|
 |Link|An optional link to a page with more information on the cookies that your site uses: We have standard content that covers this|Link picker|
 |Link label|Label text for the button to find out more about cookies on your site (button not displayed if empty)|Text|
+|Enable cookie consent|Turn on the cookie banner for new visitors. _Note: this is an EU legislative requirement_|Checkbox|
 
 ## Account Settings
 
 This section groups all of the individual settings around the secure account page, registering and signing in and out.
-
-### Login Settings
-|Setting|Description|Type|
-| ------------- | ------------- | ------------- |
-|Intro text|Paragraphs of introductory text for visitors at the top of the Login screen|Rich text|
-|Login button title|Button label for the `Login` button|Text|
-|Register button title|Button label for the `Register` button|Text|
-|Forgotten password link title|Title attribute (used by screen readers) for the `Forgotten Password` hyperlink|Text|
-|Help|Any help information that you want to appear in the side help panel if users click it.  This can contain images, links, etc.|Rich text|
 
 ### My Account Settings
 |Setting|Description|Type|
@@ -66,31 +56,30 @@ This section groups all of the individual settings around the secure account pag
 |My documents headline|Title for the `Documents` page|Text|
 |No documents text|Text to display when the user has no documents|Text|
 |Upload new documents button label|Label for the document upload button, if you have this setting turned on in Studio|Text|
-|Action title|Title for the `Tasks` page|Text|
-|Action description|Descriptive paragraphs for the `Tasks` page|Rich text|
-|Message title|Title for the `Messages` page|Text|
-|Message description|Descriptive paragraphs for the `Messages` page|Rich text|
-|Document title|Title for the `Documents` page|Text|
-|Document description|Descriptive paragraphs for the `Documents` page|Rich text|
+|My Account options headline|Headline text to display.|
 |Help|Any help information that you want to appear in the side help panel if users click it.  This can contain images, links, etc.|Rich text|
 
-!!! warning
-    __TODO__
-    Check 'Message' in table above. And 'Action'
-
-### Update User Details Settings
+### Sign In Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-|Intro Text|Introductory paragraph on the `Change Details` page|Rich text|
-|Personal details tab title|Title for the `Personal details` tab|Text|
-|Address details tab title|Title for the `Address details` tab|Text|
-|Submit button title|Label for the `Submit` button|Text|
-|Cancel button title|Label for the `Cancel` button|Text|
+|Title|_Not used_| |
+|Intro text|Paragraphs of introductory text for visitors at the top of the Login screen|Rich text|
+|Login button title|Button label for the `Login` button|Text|
+|Register button title|Button label for the `Register` button|Text|
+|Forgotten password link title|Title attribute (used by screen readers) for the `Forgotten Password` hyperlink|Text|
 |Help|Any help information that you want to appear in the side help panel if users click it.  This can contain images, links, etc.|Rich text|
+
+### Sign Out Settings
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Title|_Not used_| |
+|Intro Text|Explanatory information on the `Log out` page|Rich text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 ### User Registration Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
+|Title|_Not used_| |
 |Intro Text|Introductory paragraph on the `User Registration` page|Rich text|
 |Personal details headline|Text for the `Personal details` navigation tab in the user registration journey|Text|
 |Address details headline|Text for the `Address details` navigation tab in the user registration journey|Text|
@@ -110,12 +99,25 @@ This section groups all of the individual settings around the secure account pag
 ### Activate Account Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
+|Title|_Not used_| |
 |Intro Text|Explanatory information on the `Activate Account` page; this page informs users about the process by which they will be sent an email with an activation code and a link they can click to complete the activation|Rich text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+
+### Update User Details Settings
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Title|_Not used_| |
+|Intro Text|Introductory paragraph on the `Change Details` page|Rich text|
+|Personal details tab title|Title for the `Personal details` tab|Text|
+|Address details tab title|Title for the `Address details` tab|Text|
+|Submit button title|Label for the `Submit` button|Text|
+|Cancel button title|Label for the `Cancel` button|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it.  This can contain images, links, etc.|Rich text|
 
 ### Change Password Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
+|Title|_Not used_| |
 |Intro Text|Explanatory information on the `Change Password` page|Rich text|
 |Submit Button text|Text label for the `Submit` button|Text|
 |Submit Button Google analytics event|Google Analytics event name for the `Submit` event|Text|
@@ -123,13 +125,6 @@ This section groups all of the individual settings around the secure account pag
 |Cancel Button text|Text label for the `Cancel` button|Text|
 |Cancel Button Google analytics event|Google Analytics event name for the `Cancel` event|Text|
 |Cancel Button Google analytics label|Google Analytics event label for the `Cancel` event|Text|
-|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
-
-
-### Log Out Settings
-|Setting|Description|Type|
-| ------------- | ------------- | ------------- |
-|Intro Text|Explanatory information on the `Log out` page|Rich text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 ### Password Recovery Settings
@@ -140,11 +135,12 @@ This section groups all of the individual settings around the secure account pag
 
 ## Content Settings
 
-xx
+This section groups settings for standard pages, such as `Feedback`, `Site Help` and the `A to Z`.
 
 ### Help Requests (FAQs) Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
+|Title|Page title|Text|
 |Intro Text|Explanatory information on the `FAQs` page|Rich text|
 |Question title|Headline above the input where users type their question|Text|
 |Question label|Optional label to the left of the question input box|Text|
@@ -158,6 +154,7 @@ xx
 ### Site Feedback Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
+|Title|Page title|Text|
 |Intro Text|Explanatory information on the `Site Feedback` page; this is a static page that allows visitors to send you feedback and ratings|Rich text|
 |Rating Title|Text for the rating section headline|Text|
 |Comment Title|Text for the comment section headline|Text|
@@ -171,12 +168,14 @@ xx
 ### AtoZ Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
+|Title|Page title|Text|
 |Intro Text|Explanatory information on the `A to Z` page, which is automatically generated from your site content|Rich text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 ### Site Feedback Provider Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
+|Title|Page title|Text|
 |Intro Text|Explanatory information on a `Provider Feedback` page; this is a static page that allows visitors to send feedback and ratings for a specific provider|Rich text|
 |Rating Title|Text for the rating section headline|Text|
 |Comment Title|Text for the comment section headline|Text|
@@ -190,6 +189,31 @@ xx
 ## Search Settings
 
 This section contains all of the settings for search results, _MyPad_ and service providers.
+
+### Search Results Settings
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Intro Text|Explanatory information on the `Search` page|Rich text|
+|Result Text|The formatted summary information, which appears above the list of results; this accepts variables (see below this table)|Rich text|
+|No Results Text|Information to display when there are no matches found|Rich text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+
+Result and no-result text above can use placeholders as follows:
+
+    Searchterm: @SearchTerm@ (format of search term is: for 'keyword' near 'location') 
+    Number of results: @NumberOfResults@ 
+    Display from: @DisplayFrom@ 
+    Display to: @DisplayTo@ 
+    (e.g Your search '@SearchTerm@' returned @NumberOfResults@ records)
+
+### Search Facets Settings
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Postcodes label|Explanatory information on the `Postcodes` search facet, which allows users to filter results by postcode area|Text|
+|Data Source label|Explanatory information on the `Data Source` search facet, which allows users to filter results by source collection, e.g. 'MyLife' (Content) or 'CQC', etc.|Text|
+|Formats label|Explanatory information on the `Formats` search facet, which allows users to filter results by file type|Text|
+|Keywords label|Explanatory information on the `Keywords` search facet, which allows users to filter results by keywords|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 ### Featured Providers Settings
 |Setting|Description|Type|
@@ -224,49 +248,6 @@ This section contains all of the settings for search results, _MyPad_ and servic
 |View MyPad Button Google analytics label|Google Analytics event label for the `View MyPad` click event|Text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
-### Provider Details Settings
-
-!!! warning
-    __TODO__
-
-    |Setting|Description|Type|
-    | ------------- | ------------- | ------------- |
-    |Intro Text|Explanatory information on the `A to Z` page|Rich text|
-    |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
-
-### Provider Registration Settings
-|Setting|Description|Type|
-| ------------- | ------------- | ------------- |
-|Intro Text|Explanatory information on the `Provider Registration` page|Rich text|
-|Organisation details headline|Text for the `Organisation Details` section heading|Text|
-|Address details headline|Text for the `Address Details` section heading|Text|
-|Organisation contact details headline|Text for the `Organisation Contact Details` section heading|Text|
-|Contact details headline|Text for the `Contact Details` section heading|Text|
-|Service details headline|Text for the `Service Details` section heading|Text|
-|Terms and conditions label|Label for the terms and conditions section|Text|
-|Terms and conditions|Text for your legal terms and conditions for use of the site|Rich text|
-|Submit button label|Label for the `Submit` button|Text|
-|Cancel button label|Label for the `Cancel` button|Text|
-|Registration completed headline|Text for the `Registration completed` heading, which is displayed after successful registration|Text|
-|Registration completed text|Additional information that you want to display to a provider after they have registered|Rich text|
-|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
-
-### Search Results Settings
-|Setting|Description|Type|
-| ------------- | ------------- | ------------- |
-|Intro Text|Explanatory information on the `Search` page|Rich text|
-|Result Text|The formatted summary information, which appears above the list of results; this accepts variables (see below this table)|Rich text|
-|No Results Text|Information to display when there are no matches found|Rich text|
-|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
-
-Result and no-result text above can use placeholders as follows:
-
-    Searchterm: @SearchTerm@ (format of search term is: for 'keyword' near 'location') 
-    Number of results: @NumberOfResults@ 
-    Display from: @DisplayFrom@ 
-    Display to: @DisplayTo@ 
-    (e.g Your search '@SearchTerm@' returned @NumberOfResults@ records)
-
 ### MyPad (Edit) Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
@@ -294,13 +275,31 @@ Result and no-result text above can use placeholders as follows:
 |Cancel Button Button Google analytics label|Google Analytics event label for the `Cancel Button` click event|Text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
-### Search Facets Settings
+### Provider Details Settings
+
+!!! warning
+    __TODO__
+
+    |Setting|Description|Type|
+    | ------------- | ------------- | ------------- |
+    |Intro Text|Explanatory information on the `A to Z` page|Rich text|
+    |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+
+### Provider Registration Settings
 |Setting|Description|Type|
 | ------------- | ------------- | ------------- |
-|Postcodes label|Explanatory information on the `Postcodes` search facet, which allows users to filter results by postcode area|Text|
-|Data Source label|Explanatory information on the `Data Source` search facet, which allows users to filter results by source collection, e.g. 'MyLife' (Content) or 'CQC', etc.|Text|
-|Formats label|Explanatory information on the `Formats` search facet, which allows users to filter results by file type|Text|
-|Keywords label|Explanatory information on the `Keywords` search facet, which allows users to filter results by keywords|Text|
+|Intro Text|Explanatory information on the `Provider Registration` page|Rich text|
+|Organisation details headline|Text for the `Organisation Details` section heading|Text|
+|Address details headline|Text for the `Address Details` section heading|Text|
+|Organisation contact details headline|Text for the `Organisation Contact Details` section heading|Text|
+|Contact details headline|Text for the `Contact Details` section heading|Text|
+|Service details headline|Text for the `Service Details` section heading|Text|
+|Terms and conditions label|Label for the terms and conditions section|Text|
+|Terms and conditions|Text for your legal terms and conditions for use of the site|Rich text|
+|Submit button label|Label for the `Submit` button|Text|
+|Cancel button label|Label for the `Cancel` button|Text|
+|Registration completed headline|Text for the `Registration completed` heading, which is displayed after successful registration|Text|
+|Registration completed text|Additional information that you want to display to a provider after they have registered|Rich text|
 |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 ## Guides Settings
