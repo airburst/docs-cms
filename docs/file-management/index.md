@@ -163,7 +163,7 @@ If you make a mistake, or simply want to revert to an earlier version of a page 
 * __Refresh your browser__ to see the rolled-back item __It is not saved yet!__
 * Click `Save and publish` (or just save if you want to keep as draft)
 
-## Save and Publish Content
+## Save and Publish
 
 After making changes to a content item, you can save it as draft or publish it. 
 

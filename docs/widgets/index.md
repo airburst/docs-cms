@@ -19,7 +19,7 @@ You can add or replace a content widget within a page at any time.  Start with a
 
 See below for more details on the different types of content that you can add and how to change their settings.
 
-## View or Change Widget Settings
+## Widget Settings
 
 This applies to all widgets.  
 
@@ -51,7 +51,7 @@ Click `Save` or `Save and publish` when you are finished to store the changes.
 
 ## Image
 
-Follow the standard process to [show widget settings](#view-or-change-widget-settings)
+Follow the standard process to [show widget settings](#widget-settings)
 
 ![Image settings](./widgets/image-settings.jpg)
 
@@ -90,7 +90,7 @@ Sometimes the image that you choose is too bright for the caption text to stand 
 
 You can embed videos that are hosted on a public streaming service (YouTube and Vimeo are supported out of the box). We use responsive embedding, so the video will resize according to the user's device.
 
-Follow the standard process to [show widget settings](#view-or-change-widget-settings)
+Follow the standard process to [show widget settings](#widget-settings)
 
 `Videos` have the following settings that you can adjust:
 
@@ -109,7 +109,7 @@ Follow the standard process to [show widget settings](#view-or-change-widget-set
 !!! warning
     TODO - update this section when Links allow users to pick an existing menu
 
-Follow the standard process to [show widget settings](#view-or-change-widget-settings).
+Follow the standard process to [show widget settings](#widget-settings).
 
 `Links` have the following settings that you can adjust:
 
@@ -135,7 +135,7 @@ Follow the standard process to [show widget settings](#view-or-change-widget-set
 
 The `Menu Panel` widget embeds a collection of visual links into the page. It offers the same settings that you have when building a standalone `Menu Panel Page`.
 
-Follow the standard process to [show widget settings](#view-or-change-widget-settings).
+Follow the standard process to [show widget settings](#widget-settings).
 
 Please follow this link to find details on [Menu Panel settings](../menu-pages).
 
@@ -143,7 +143,7 @@ Please follow this link to find details on [Menu Panel settings](../menu-pages).
 
 An `Accordion` is a piece of content with collapsable rows, often used for FAQs or sections where the user wants to reveal information on specific topics. Each row has a title and rich content that gets revealed when the title is clicked and hidden when the title is clicked again.
 
-Follow the standard process to [show widget settings](#view-or-change-widget-settings).
+Follow the standard process to [show widget settings](#widget-settings).
 
 `Accordions` have the following settings that you can adjust:
 
@@ -172,7 +172,7 @@ Everyone loves carousels. Apart from users. In fact there is evidence from worki
 
 We can't wholeheartedly recommend that you use carousels then, but the choice is entirely yours.
 
-Follow the standard process to [show widget settings](#view-or-change-widget-settings).
+Follow the standard process to [show widget settings](#widget-settings).
 
 `Carousels` have the following settings that you can adjust:
 
@@ -202,7 +202,7 @@ Follow the standard process to [show widget settings](#view-or-change-widget-set
 
 The grid allows you to specify the proportions of the left and right columns (in ratios of 12ths), so you can build 2:3, 1:2, 5:7, etc. as you need.  Then you can add HTML Content, images or videos in each side. The primary use is to align paragraphs of text with an accompanying column of media.  If you simply wanted to display a grid of images, then you can use standard rows and cells.
 
-Follow the standard process to [show widget settings](#view-or-change-widget-settings).
+Follow the standard process to [show widget settings](#widget-settings).
 
 `Grids` have the following settings that you can adjust:
 
@@ -239,7 +239,7 @@ The value of this widget is that it gives users an intuitive way to start a sear
 
 ![Image settings](./widgets/info-search.jpg)
 
-Follow the standard process to [show widget settings](#view-or-change-widget-settings).
+Follow the standard process to [show widget settings](#widget-settings).
 
 `Search Categories` has the following settings that you can adjust:
 
@@ -261,7 +261,7 @@ Since this is an embedded widget, controlled by Twitter, we do not have as much 
 
 ![Twitter Feed](./widgets/twitter.jpg)
 
-Follow the standard process to [show widget settings](#view-or-change-widget-settings).
+Follow the standard process to [show widget settings](#widget-settings).
 
 `Twitter Feeds` have the following settings that you can adjust:
 
@@ -302,7 +302,7 @@ An example feed is shown in the figure below. Each item has a hover effect to in
 
 ![RSS Feed](./widgets/rss-feed.jpg)
 
-Follow the standard process to [show widget settings](#view-or-change-widget-settings).
+Follow the standard process to [show widget settings](#widget-settings).
 
 `RSS Feeds` have the following settings that you can adjust:
 

@@ -14,7 +14,7 @@ Or if you prefer the Google Material Design way of things, then with pictures on
 
 There are two ways to create this type of content in MyLife; you can use a `Menu Panel` widget inside a page layout, or - if this is the only thing that you want in the page - then you can create a `Menu Panel Page`.
 
-## Create a Menu Panel Page
+## Create a Menu Page
 
 * Hover over a folder in the site content tree and click the ellipsis to the right to open the `Create` panel
 * Click on `Menu Panel Page`

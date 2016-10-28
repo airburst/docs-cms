@@ -26,7 +26,7 @@ This is a great way to promote services and signposting for commonly used search
 * `Search terms` is a phrase that triggers the widget to appear, e.g. _Respite care_. This text is case-insensitive
 * Click the `Save and publish` button for the widget to take effect
 
-## The Search Assistant in Action
+## The Assistant in Action
 
 Having created a `Search Assistant` for your chosen search phrase, simply type that phrase into a new saerch in MyLife to check the results. The phrase can appear anywhere in the full search text, __but it must be contiguous__.
 

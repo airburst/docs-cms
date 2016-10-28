@@ -42,7 +42,7 @@ This section explains how to create a Guide.
 
 Question Fields
 
-|Question Item|Description|
+|Question|Description|
 | ------------- | ------------- |
 |Title|The question title, e.g. _"What can I do to become healthier?"_|
 |Text|Optional notes to follow the question.|
@@ -51,7 +51,7 @@ Question Fields
 
 Option Fields
 
-|Option Item|Description|
+|Option|Description|
 | ------------- | ------------- |
 |Statement|The statement that will appear next to a checkbox, e.g. _I want to improve my diet_.|
 |Information|The detailed information that will be added into the final PDF for any user who checks this statement.|

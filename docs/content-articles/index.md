@@ -8,7 +8,7 @@ They are particularly good for textual and tabular content, as well as blocks th
 
 Once you have created a draft item that you are happy with, it is essential to add good [metadata](#metadata) in order for search engines like Google to index and help the public find your pages.
 
-## Create an HTML Content Article
+## Create HTML Content
 
 You can create `HTML Content` items inside any folder.
 
