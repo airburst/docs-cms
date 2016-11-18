@@ -57,9 +57,6 @@ Follow the standard process to [show widget settings](#widget-settings)
 
 Images have the following settings that you can adjust:
 
-!!! warning
-    TODO - add info about aspect ratio clipping
-
 |Setting|Description|
 | ------------- | ------------- |
 |Image|A [media picker](../content-articles/#media-picker)  to search for an existing - or upload a new - picture.|
@@ -106,10 +103,11 @@ Follow the standard process to [show widget settings](#widget-settings)
 
 ## Links
 
-!!! warning
-    TODO - update this section when Links allow users to pick an existing menu
-
 Follow the standard process to [show widget settings](#widget-settings).
+
+After choosing to add a `Links` widget, the settings panel appears on the right of your screen.
+
+![links widget settings](./widgets/add-links.jpg)
 
 `Links` have the following settings that you can adjust:
 
@@ -120,7 +118,10 @@ Follow the standard process to [show widget settings](#widget-settings).
 |Columns|Select the number of columns of links that you want to display in the section, from 1 - 6.|
 |Order|Select whether you want to populate the columns left-to-right, or top-to-bottom.|
 |Custom style|An optional class name or names, separated by spaces. If any of these names match styles in your site theme then those styles will be applied to the image.|
+|Link Picker|A control to select one or more existing menus. Handy for reusing common menus across multiple pages, e.g. for navigation in a section area (see picture below).|Menu Picker|
 |Items|A collection of link items (see details in table below).|
+
+![menu picker](./widgets/menu-picker.jpg)
 
 ### Link Items
 

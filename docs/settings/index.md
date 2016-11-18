@@ -277,13 +277,13 @@ Result and no-result text above can use placeholders as follows:
 
 ### Provider Details Settings
 
-!!! warning
-    __TODO__
-
-    |Setting|Description|Type|
-    | ------------- | ------------- | ------------- |
-    |Intro Text|Explanatory information on the `A to Z` page|Rich text|
-    |Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
+|Setting|Description|Type|
+| ------------- | ------------- | ------------- |
+|Service summary|Title for the Service Summary section on Provider Details page.|Text|
+|Service details|Title for the Service Details section on Provider Details page.|Text|
+|Documents tab|Title for the Documents tab, where you allow Providers to upload and display documents.|Text|
+|Ratings and reviews|Title for the Ratings tab, where this feature is turned on.|Text|
+|Help|Any help information that you want to appear in the side help panel if users click it.|Rich text|
 
 ### Provider Registration Settings
 |Setting|Description|Type|

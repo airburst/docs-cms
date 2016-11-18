@@ -30,8 +30,7 @@ The specific tabs in the details panel will vary depending on the type of conten
 
 Breadcrumbs can help users to navigate when you have deeply nested content, such as drill-down menus or rich sections within your site.  They appear as a sequence of links beneath the header.
 
-!!! warning 
-    Insert picture of breadcrumb in site
+![Breadcrumb example](/file-management/breadcrumb-in-page.jpg)
 
 __Breadcrumbs are only set at the folder level.__
 
