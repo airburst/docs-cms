@@ -36,6 +36,7 @@ The footer area has a standardised layout in two halves.  The left half is free 
 |Middle column|Middle column of links in the footer|Menu builder|
 |Right column|Right column of links in the footer|Menu builder|
 |Content|HTML content for the left half of the footer, for e.g. logos, address, social media icons, etc.|Rich text|
+|Full-width|Check if you want the footer to extend the full width of your screen. The default is unchcked, which puts the footer into a container.|Checkbox|
 
 ### Cookie Consent
 |Setting|Description|Type|
